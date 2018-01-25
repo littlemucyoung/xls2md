@@ -47,7 +47,6 @@ def output_md(row, file):
 
 def xls2md():
     arguments = docopt(__doc__, version='XLS2MD 0.1')
-    # print(arguments)
     has_head = arguments['--head']
     from_path = arguments['<from_path>']
     if arguments['--sindex']:
