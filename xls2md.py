@@ -5,16 +5,16 @@
 
 Usage:
 xls2md.py [--head] --from <from_path> [--sindex <sheet_index>|--sname <sheet_name>] --to <to_path>
-xls2md.py -h | --help
-xls2md.py -v | --version
+xls2md.py -h|--help
+xls2md.py -v|--version
 
 Options:
--h --help Show this screen.
--v --version Show version.
+-h --help  Show this screen.
+-v --version  Show version.
 --head  The excel file has a head row
---from  From_Path(path of the excel file)
---to  To_Path(path of the markdown file)
---sheet  Specify the target sheet(name or id)
+--from  From_Path, path of the excel file
+--to  To_Path, path of the markdown file
+--sheet  Specify the target sheet, name or id
 """
 
 from docopt import docopt
