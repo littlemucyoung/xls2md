@@ -1,7 +1,7 @@
 ### It‘s a new project
 #### What is the project about?
 When posting articles, I offen need a complex table which contain a lot of information. I have to type it in the markdown file. It's troublesome and cost me too much time.  
-So I create a python cli tool to simplify the process
+So I create a python cli tool to simplify the process.
 
 #### Install
 ```shell
@@ -45,6 +45,6 @@ data.md:
 |加拿大|15928.48|44095.85|
 
 #### Technology Stack
-Language: Python
-Requirements: xlrd, xlwt, docopt
-Development Environment: Pipenv
+Language: Python  
+Requirements: xlrd, xlwt, docopt  
+Development Environment: Pipenv  
